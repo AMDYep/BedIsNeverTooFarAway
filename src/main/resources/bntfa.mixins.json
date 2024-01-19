@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "io.github.amdyep.bntfa.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "bntfa.refmap.json",
+  "mixins": [
+    "Mixin$ServerPlayer"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
